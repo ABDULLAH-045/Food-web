@@ -1,24 +1,16 @@
+import MainImg from "../components/mainimg";
 
-
-import MainImg from "./components/mainimg";
-
-export default function Home() {
-  return (
-    <div  className="bg-white">
-
-
-<MainImg pagename="Home" openedpage=""></MainImg>
-
-<div className="px-80 py-11 items-center   " >
-  <div>
-  <div className="flex text-xl font-bold text-center">
-            <label ><h1 className="text-3xl text-black">Food</h1></label>
-            <label className="text-[#FF9F0D] text-3xl"><h1 ></h1>tuck</label>
-        </div>
-        <p className="text-black pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolore distinctio temporibus! Voluptates nulla eligendi assumenda inventore et, placeat ratione modi quis nesciunt excepturi consequuntur. Fuga doloremque molestias libero veniam.</p>
+export default function Blog(){
+return (
+<>
+<div >
+    <MainImg pagename={"Blog"} openedpage={"Blog"} ></MainImg>
+</div>
+    <div className="bg-white flex justify-between space-x-9 px-64 py-16">
+<div >
     {/* first div */}
 <div>
-    <img className="w-[1001px] h-521px" src="un1.png"></img>
+    <img className="w-[871px] h-521px" src="un1.png"></img>
 <div>
 <p className="text-black text-3xl font-semibold pt-5" >10 Reasons To Do A Digital Detox Challenge</p>
 <p className="text-black pt-7">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
@@ -29,7 +21,7 @@ export default function Home() {
     </div>
 
     <div className="pt-11">
-    <img className="w-[1001px] h-521px" src="un2.png"></img>
+    <img className="w-[871px] h-521px" src="un2.png"></img>
 <div>
 <p className="text-black text-3xl font-semibold pt-5" >Traditional Soft Pretzels with Sweet Beer Cheese</p>
 <p className="text-black pt-7">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
@@ -40,7 +32,7 @@ export default function Home() {
     </div>
 
     <div className="pt-11">
-    <img className="w-[1001px] h-521px" src="un3.png"></img>
+    <img className="w-[871px] h-521px" src="un3.png"></img>
 <div>
 <p className="text-black text-3xl font-semibold pt-5" >10 Reasons To Do A Digital Detox Challenge</p>
 <p className="text-black pt-7">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
@@ -52,7 +44,7 @@ export default function Home() {
 
 
     <div className="pt-11">
-    <img className="w-[1001px] h-521px" src="un4.png"></img>
+    <img className="w-[871px] h-521px" src="un4.png"></img>
 <div>
 <p className="text-black text-3xl font-semibold pt-5" >10 Reasons To Do A Digital Detox Challenge</p>
 <p className="text-black pt-7">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
@@ -62,11 +54,51 @@ export default function Home() {
 
     </div>
 </div>
-      
-</div>
-      
 
-      
+{/* next div */}
+<div>
+<div className="space-y-14 text-black text-2xl">
+        <h3>Reacent Posts</h3>
+        <div className="flex items-center text-black">
+          <img src="footer1.png" alt="Chicken Tikka Kabab" className="w-20 h-20" />
+          <div className="ml-4">
+            <h3>Chicken Tikka Kabab</h3>
+            <p className="text-gray-600">nov/24/2024</p>
+            
+          </div>
+        </div>
+        <div className="flex items-center">
+          <img src="footer1.png" alt="Chicken Tikka Kabab" className="w-20 h-20" />
+          <div className="ml-4">
+            <h3>Chicken Tikka Kabab</h3>
+            <p className="text-gray-600">nov/24/2024</p>
+            
+          </div>
+        </div>
+        <div className="flex items-center">
+          <img src="footer1.png" alt="Chicken Tikka Kabab" className="w-20 h-20" />
+          <div className="ml-4">
+            <h3>Chicken Tikka Kabab</h3>
+            <p className="text-gray-600">nov/24/2024</p>
+          
+          </div>
+        </div>
+
+        <div className="flex items-center">
+          <img src="footer1.png" alt="Chicken Tikka Kabab" className="w-20 h-20" />
+          <div className="ml-4">
+            <h3>Chicken Tikka Kabab</h3>
+            <p className="text-gray-600">nov/24/2024</p>
+          
+          </div>
+        </div>
+        <hr ></hr>
+        <hr ></hr>
+      </div>
+</div>
+
     </div>
-  );
+    </>
+)
+
 }
